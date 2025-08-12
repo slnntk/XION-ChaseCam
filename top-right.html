@@ -74,7 +74,8 @@
                 REC&nbsp;<i class="fa fa-circle text-danger Blink"></i>&nbsp;&nbsp;AXON&nbsp;BODYCAM&trade;&nbsp;&nbsp;<br />
                 <span id="player">XXX</span>
                 <span id="callsign">[000]</span>&nbsp;&nbsp;<br />
-                <span id="agency">XXX</span>&nbsp;&nbsp;<br />                
+                <span id="agency">XXX</span>&nbsp;&nbsp;<br />
+                <span id="passport">PASS: 0000</span>&nbsp;&nbsp;<br />                
                 <span style="padding:0px;margin:0px;" id="date-span">00 XXX 0000</span>
                 <span style="padding:0px;margin:0px;" id="time-span">00:00:00</span>&nbsp;&nbsp;
             </div>
@@ -83,9 +84,10 @@
     
     <script>
         //***edit this only for your information***
-        const player = "M. MAX";
-        const agency = " SHERIFFS DEPARTMENT";
-        const callsign = "[214]";
+        const player = "SGT. G.R.A PILOT";
+        const agency = "1º BPM-AP ALTA PARADISE";
+        const callsign = "[990]";
+        const passport = "PASS: 1899";
         //***        end edit this only         ***
     
         const monthNames = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
@@ -113,6 +115,7 @@
             $('player', player);
             $('agency', agency);
             $('callsign', callsign);
+            $('passport', passport);
             var animate=setTimeout(clock,100);
         };
         
